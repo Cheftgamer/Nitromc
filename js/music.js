@@ -27,10 +27,10 @@ const container = document.getElementById("player-bar");
 const video = document.getElementById("player-video");
 let shuffle = false;
 const list = ["Las Muñequitas.mp3", "Neney Neney.mp3", "This is colombia.mp3", "Pico y Chao.mp3", "Moonlight.mp3", "YO QUIERO.mp3", "Mano al piso.mp3", "UNA BABY EN SANTIAGO.mp3", "Skokka.mp3", "MENTE POSITIVA.mp3", "PROVÓCATE.mp3", "DOS AMORES.mp3", "SORNERO.mp3", "AGUA BENDITA.mp3", "MACDONALDS.mp3", "ZOZO.mp3", "LUBRIDERM.mp3", "MERO TOTE.mp3", "QUE LE DE.mp3", "ANTIOQUIA.mp3", "CIGARRO.mp3", "ALO.mp3", "QUÉ LIO.mp3", "💕🧃 YOGURCITO.mp3", "SUPERSTAR.mp3", "Esclava.mp3", "444Remix.mp3", "Talento.mp3", "Hace Mucho Tiempo.mp3", "La Jumpa.mp3", "Me Prefieres A Mi.mp3", "Pa Que La Pases Bien.mp3", "Sigues con Él.mp3", "BAILE INoLVIDABLE.mp3", "BD NUEVAYOL.mp3", "Si VEO A TU MAMÁ.mp3", "Tu no metes cabra (Remix).mp3", "Cuando No Era Cantante.mp3", "Cuando No Era Cantante Remix.mp3", "SPOTISAVER.mp3", "Nunca Me Olvides.mp3", "Yandel 150.mp3", "La Monda.mp3", "Destino Final.mp3", "El Mejor Remix.mp3", "Vete.mp3", "Por Qué la Envidia.mp3", "Aventurero.mp3", "Guaro Remix.mp3", "Mi Venganza.mp3", "MLP.mp3", "Hasta La Madre.mp3", "Un Perro Enamorado.mp3"];
-const carpeta1 = "/cheft-portafolio/audio-video/Reggeton/";
-const carpeta2 = "/cheft-portafolio/audio-video/Popular/";
+const carpeta1 = "/audio-video/Reggeton/";
+const carpeta2 = "/audio-video/Popular/";
 const videoList = ["Mr. Plata, El Americano 4KT - Las Muñequitas.mp4", "Neney Neney.mp4", "This Is Colombia.mp4", "PICO Y CHAO.mp4", "MOONLIGHT.mp4", "YO QUIERO.mp4", "MANO AL PISO.mp4", "UNA BABY EN SANTIAGO.mp4", "SKOKKA.mp4", "MENTE POSITIVA.mp4", "PROVOCATE.mp4", "DOS AMORES.mp4", "SORNERO.mp4", "AGUA BENDITA.mp4", "MACDONALDS.mp4", "ZOZO.mp4", "LUBRIDERM.mp4", "MERO TOTE.mp4", "QUE LE DE.mp4", "ANTIOQUIA.mp4", "CIGARRO.mp4", "ALÓ.mp4", "QUE LIO.mp4", "💕🧃 YOGURCITO REMIX.mp4", "SUPERSTAR.mp4", "Esclava Remix.mp4", "444Remix.mp4", "Talento.mp4", "Hace Mucho Tiempo.mp4", "La Jumpa.mp4", "Me Prefieres a Mi.mp4", "Pa Que La Pases Bien.mp4", "Sigues Con Él.mp4", "BAILE INoLVIDABLE.mp4", "NUEVAYoL.mp4", "SI VEO A TU MAMÁ.mp4", "TÚ NO METES CABRA.mp4", "Cuando No Era Cantante.mp4", "Cuando No Era Cantante Remix.mp4", "Brickell.mp4", "Nunca Me Olvides.mp4", "Yandel 150.mp4", "LA MONDA.mp4", null, null, null, null, null]
-const videoCapt1 = "/cheft-portafolio/audio-video/Videos/Reggeton/"
+const videoCapt1 = "/audio-video/Videos/Reggeton/"
 const filas = document.querySelectorAll(".cancion-fila");
 let inceActual = 0;
 
