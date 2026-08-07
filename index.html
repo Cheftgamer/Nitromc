@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/cheft-portafolio/css/music.css">
+    <link rel="icon" href="/cheft-portafolio/imagenes/icono.png" type="image/x-png">
+    <title>Cheft_dev | portafolio</title>
+</head>
+<body>
+
+    <div class="ios-background">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="orb orb-4"></div>
+    </div>
+
+    <audio  autoplay playsinline id="audio" src=""></audio>
+
+    <div class="ini">
+        <header class="iniMusic">
+            <h1 id="title">Elige una canción</h1>
+            <p class="subtitle">Se reproducirá en todo el portafolio</p>
+            <p class="subtitle font-highlight">Cheft_dev ontop</p>
+            <div class="playlist-selector">
+                <button id="btn-can" class="btn">Canciones</button>
+                <button id="btn-alb" class="btn">Álbumes</button>
+            </div>
+        </header>
+    </div>
+    <div class="canciones-container">
+        <section class="canciones-item">
+            <h2 class="canciones-title">Regueton / Trap</h2>
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://i.scdn.co/image/ab67616d0000b27398bac645e1353af5c86dd595" alt="las muñequitas">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Las Muñequitas.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Las Muñequitas</span>
+                        <span class="cancion-art">Mr Plata, El Americano 4KT</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8fNHn2aPII9raRu7S1gAuN25zNgydWkM_K6cieNQ0Ew&s" alt="Neney Neney">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Neney Neney.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Neney Neney</span>
+                        <span class="cancion-art">Mr Plata, Rey Preciado, JI El Mas Demente</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY_nYETO1e0vFzUMBE_alGJzuvcvo3Y46ySgUmHXpCgQ&s=10" alt="This is Colombia">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/This is colombia.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">This is Colombia</span>
+                        <span class="cancion-art">Pirlo, El Americano 4KT</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdLffdJbnKMn91lNWK0XG0-UzFcX9c0vAKEPjSe_vYBg&s" alt="Pico y chao">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Pico y Chao.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Pico y chao</span>
+                        <span class="cancion-art">W Sound, Kris r, Ovy On The Drums</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYgRHT_lpi5Fb1nH2XON7I6SmqeXT_4qmbSpja0GZcXw&s" alt="Moonlight">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Moonlight.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Moonlight</span>
+                        <span class="cancion-art">XXXTENTACION</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQpnh2LiD4MNIxATOFa-3aj8ZTAD6JYy5LaE0zFLj9Ug&s=10" alt="YO QUIERO">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/YO QUIERO.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">YO QUIERO</span>
+                        <span class="cancion-art">Hades66</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwQB7xEWhXgoaF8NBZ39NCtb_qVRo-vP_3sqSGgLHkVw&s" alt="Mano Al Piso">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Mano al piso.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Mano al piso</span>
+                        <span class="cancion-art">Tury, Jottaf</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe7CEWqLatN0AOKErx9oBs73nPFRuPvpt0MuIJKQn-6A&s=10" alt="Una baby en Santiago">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/UNA BABY EN SANTIAGO.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Una Baby En Santiago</span>
+                        <span class="cancion-art">Lil Nay</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIhT6BfVJbpBlOI7aCgDdAeeue1PZFT_IjZkW-y9_egw&s=10" alt="Skokka">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Skokka.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Skokka</span>
+                        <span class="cancion-art">Huan62</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuSc9xlL9l6x7XkSYuXmgzZJp2dTfunJBBRlef1JUAQ&s=10" alt="Mente Positiva">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/MENTE POSITIVA.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Mente Positiva</span>
+                        <span class="cancion-art">Blessd</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuSc9xlL9l6x7XkSYuXmgzZJp2dTfunJBBRlef1JUAQ&s=10" alt="Provócate">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/PROVÓCATE.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Provócate</span>
+                        <span class="cancion-art">Blessd, Cris Mj, SOG</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuSc9xlL9l6x7XkSYuXmgzZJp2dTfunJBBRlef1JUAQ&s=10" alt="Dos Amores">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/DOS AMORES.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Dos Amores</span>
+                        <span class="cancion-art">Blessd</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuSc9xlL9l6x7XkSYuXmgzZJp2dTfunJBBRlef1JUAQ&s=10" alt="Sonero">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/SORNERO.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Sonero</span>
+                        <span class="cancion-art">Blessd</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuSc9xlL9l6x7XkSYuXmgzZJp2dTfunJBBRlef1JUAQ&s=10" alt="Agua Bendita">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/AGUA BENDITA.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Agua Bendita</span>
+                        <span class="cancion-art">Blessd, GeezyDee</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuSc9xlL9l6x7XkSYuXmgzZJp2dTfunJBBRlef1JUAQ&s=10" alt="Macdonals">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/MACDONALDS.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Macdonals</span>
+                        <span class="cancion-art">Blessd, Kybba</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuSc9xlL9l6x7XkSYuXmgzZJp2dTfunJBBRlef1JUAQ&s=10" alt="zozo">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/ZOZO.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">ZOZO</span>
+                        <span class="cancion-art">Blessd, Jay Wheeler, Randy Nota Loca</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuSc9xlL9l6x7XkSYuXmgzZJp2dTfunJBBRlef1JUAQ&s=10" alt="Lubriderm">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/LUBRIDERM.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Lubriderm</span>
+                        <span class="cancion-art">Blessd, Kris r</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuSc9xlL9l6x7XkSYuXmgzZJp2dTfunJBBRlef1JUAQ&s=10" alt="Mero Tote">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/MERO TOTE.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Mero Tote</span>
+                        <span class="cancion-art">Blessd, De La Rose, Los Money Makers</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuSc9xlL9l6x7XkSYuXmgzZJp2dTfunJBBRlef1JUAQ&s=10" alt="Que Le De">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/QUE LE DE.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Que Le De</span>
+                        <span class="cancion-art">Blessd, Raven la R</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuSc9xlL9l6x7XkSYuXmgzZJp2dTfunJBBRlef1JUAQ&s=10" alt="Antioquia">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/ANTIOQUIA.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Antioquia</span>
+                        <span class="cancion-art">Blessd, Clarent</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuSc9xlL9l6x7XkSYuXmgzZJp2dTfunJBBRlef1JUAQ&s=10" alt="Cigarro">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/CIGARRO.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Cigarro</span>
+                        <span class="cancion-art">Blessd, Jon Z, Neutro Shorty</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuSc9xlL9l6x7XkSYuXmgzZJp2dTfunJBBRlef1JUAQ&s=10" alt="Alo">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/ALO.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Alo</span>
+                        <span class="cancion-art">Blessd, Juhn, Fronti, Tury, Tutu</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmuSc9xlL9l6x7XkSYuXmgzZJp2dTfunJBBRlef1JUAQ&s=10" alt="Qué Lio">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/QUÉ LÍO.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Qué Lio</span>
+                        <span class="cancion-art">Blessd</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1V3TLb3Pds3qSC5iRksM5iZm9BZzodKrwbJltUVuTGg&s=10" alt="Yogurcito Remix">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/💕🧃 YOGURCITO.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Yogurcito Remix</span>
+                        <span class="cancion-art">Blessd, AnuelAA, Yank Block, Lunar la L, Kris r, Roa</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsx1GScjyCf4O3bVhv-4ijkqShactvHhIiPb6cNG9tfQ&s" alt="Super Start">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/SUPERSTAR.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Super Start</span>
+                        <span class="cancion-art">Blessd, AnuelAA, Yank Block, Lunar la L, Kris r, Roa</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273fc974b3893de83eba6c1f862" alt="Esclava Remix">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Esclava.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Esclava Remix</span>
+                        <span class="cancion-art">Bryant Myers, Anuel AA, Anonimus, Almighty</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI1bdqt-Ta3JipbONPeCYQzdhgBgBcqkIp7KKLA2P6Dg&s" alt="444 Remix">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/444Remix.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">444 Remix</span>
+                        <span class="cancion-art">Yan Block, De La Rose, Hades66, Ñengo Flow</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScWu6AE6qgfBFrpiM49kzJ5Vzw63EFYKN6bWe6ksHGEg&s" alt="Talento">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Talento.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Talento</span>
+                        <span class="cancion-art">Yan Block, Panda Black</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkeV8Yh-K1RALb0n0tZDhUMjfZsUWKO_NFDWzF4BnlkA&s=10" alt="Hace mucho tiempo">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Hace Mucho Tiempo.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Hace mucho tiempo</span>
+                        <span class="cancion-art">Arcángel</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu7aDEm7A0nCPvYT9LVVTHBEdUXIe5tJc19Xoa8OhZeQ&s=10" alt="Jumpa">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/La Jumpa.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">La Jumpa</span>
+                        <span class="cancion-art">Arcángel, Bad Bunny</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQysFno1QHo1AEGYqU4rR8I0AY1RN4QsQffJJgyOl-9uA&s=10" alt="Me Prefieres A Mi">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Me Prefieres A Mi.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Me Prefieres A Mi</span>
+                        <span class="cancion-art">Arcángel</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCunXp5M5hSxK43TdDYsK8UlE-KEhYQ2T7smWMJvbuog&s=10" alt="Pa'Que La Pases Bien">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Pa Que La Pases Bien.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Pa'Que La Pases Bien</span>
+                        <span class="cancion-art">Arcángel</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdE24fKVIXOW3H86TPKACdDxiLDtieBM0_HvFPUODavQ&s=10" alt="Sigues con Él">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Sigues con Él.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Sigues con Él</span>
+                        <span class="cancion-art">Arcángel</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4HQwYpsx5RwayI8IaLOp45rlgVlWpzDbKg-7ieIsErw&s=10" alt="Baile Inolvidable">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/BAILE INoLVIDABLE.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Baile Inolvidable</span>
+                        <span class="cancion-art">Bad Bunny</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_XAOctkHg4BpxLPGLlaBYPjQYepNAkOexGYdsz34QBA&s=10" alt="Nuevayol">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/BD NUEVAYOL.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Nuevayol</span>
+                        <span class="cancion-art">Bad Bunny</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ52BftT-2bcB1ee33W4S52938tl_TMs0kyTBaIWIlpcg&s=10" alt="Si veo a tu mamá">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Si VEO A TU MAMÁ.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Si veo a tu mamá</span>
+                        <span class="cancion-art">Bad Bunny</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO80ni8uNkOzVeEFc1kno-YzZsIlFsIgsuW_mHUBGAvw&s=10" alt="Tu no metes cabra Remix">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Tu no metes cabra (Remix).mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Tu no metes cabra Remix</span>
+                        <span class="cancion-art">Bad Bunny, Daddy Yankee, Anuel AA, Cosculluela</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0N0In85BZy0qQxbPf35oRxIjNvN5NvX8WeAVKTL1m2A&s=10" alt="Cuando no era cantante">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Cuando No Era Cantante.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Cuando no era cantante</span>
+                        <span class="cancion-art">El Bogueto, Yung Beef</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAna3BGxDORR1htd_DRvfAdzDdJZ4-HmDNO-eWxvrrcQ&s=10" alt="Cuando no era cantante remix">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Cuando No Era Cantante Remix.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Cuando no era cantante remix</span>
+                        <span class="cancion-art">El Bogueto, Anuel AA, Fuerza Regida, Yung Beef</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaX0q5NfEcw5lQby_KonXNYDXQj_ZhBbgRwmVnEq78hg&s=10" alt="Brickell">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/SPOTISAVER.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Brickell</span>
+                        <span class="cancion-art">Feid, Yandel</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMjgqtM82mbSN6rxlFdFZfdm-I2T63U8sXvg7I-hIynA&s=10" alt="Nunca Me Olvides">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Nunca Me Olvides.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Nunca Me Olvides</span>
+                        <span class="cancion-art">Yandel</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV-ZZHayl6sE1bwzUhggywH9XQ8YFbYnylLtJsQOkWjg&s=10" alt="Yandel 150">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/Yandel 150.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Yandel 150</span>
+                        <span class="cancion-art">Yandel, Feid</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ZoIgPnqbZoVW2kkR-2U1KyZObc0i1295zOQKsGoI_A&s" alt="La Monda">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Reggeton/La Monda.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">La Monda</span>
+                        <span class="cancion-art">De La Rose, Rayan Castro</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="canciones-item">
+            <h2 class="canciones-title">Musica pupolar</h2>
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5YUYbh3lgPdHIC8wXnM26wM2spIZ2X9BmKceb7U0lcQ&s=10" alt="Destino Final">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Popular/Destino Final.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Destino Final</span>
+                        <span class="cancion-art">Yeison Jimenez, Luis Alfonso</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeCPPIt8eXymq0cGOX6EmhT-IXOOD2gZJm6Aq_A2mGGw&s=10" alt="El mejor">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Popular/El Mejor Remix.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">El mejor Remix</span>
+                        <span class="cancion-art">Yeison Jimenez, Chayín Rubio</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6xWbx8cfDWH6Sej0z9BQ-ouCcYNS59nEIEWx0pWk48w&s=10" alt="Vete">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Popular/Vete.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Vete</span>
+                        <span class="cancion-art">Yeison Jimenez</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiM55heKEuSfYnT1ijwNDvPT8cGyvoZuvyDEGWxpK4rw&s=10" alt="Por Qué la Envidia">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Popular/Por Qué la Envidia.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Por Qué la Envidia</span>
+                        <span class="cancion-art">Yeison Jimenez</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyBrFWiPThwHhdIa5CyJlgejkErtajAV_mOcDTluomBg&s" alt="Aventurero">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Popular/Aventurero.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Aventurero</span>
+                        <span class="cancion-art">Yeison Jimenez</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReF-5dfP5rF8z9Jw0QZTWcFpgsJGzSSlxXT211dUiVAg&s=10" alt="Guaro Remix">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Popular/Guaro Remix.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Guaro Remix</span>
+                        <span class="cancion-art">Pipe Bueno, Jessi Uribe, Yeison Jimenez, Carín León, Alzate, Darío Gómez, Luis Alberto Posada, El Charrito Negro, Jhonny Rivera, Jhon Alex Castaño</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLBtKK0fNcLhNu0MmQiAZb83Dx59Bz5pLIy8x0P_nnoQ&s=10" alt="Mi Venganza">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Popular/Mi Venganza.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Mi Venganza</span>
+                        <span class="cancion-art">Alzate, Yeison Jimenez</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJFMe1G7X_JVaeLb5erhf5vFRsNR9mF1-af7xbmvWGGg&s=10" alt="MLP">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Popular/MLP.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">MLP</span>
+                        <span class="cancion-art">Yeison Jimenez</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAdtO4tNqC4QTlBoO653XhT_WIsbKRzVn5AdD9Z0vQug&s=10" alt="Hasta La Madre">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Popular/Hasta La Madre.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Hasta la madre</span>
+                        <span class="cancion-art">Yeison Jimenez, Pasabordo</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cancion-lis">
+                <div class="cancion-fila">
+                    <div class="caratula">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPwsvC1H7MTfSi-2dC0Rb5SwEQa1hn7Bht-rK7Xm_GMQ&s=10" alt="Un Perro Enamorado">
+                        <div class="cancion-hover" onclick="Cancion('/cheft-portafolio/audio-video/Popular/Un Perro Enamorado.mp3', this)">▶</div>
+                    </div>
+                    <div class="cancion-info">
+                        <span class="cancion-title-text">Un Perro Enamorado</span>
+                        <span class="cancion-art">Yeison Jimenez</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+
+    <div class="control-container" id="player-bar">
+        <video id="player-video" autoplay loop muted playsinline src=""></video>
+        <div class="video-overlay"></div>
+        <div class="player-content">
+            <div class="progress-container">
+                <div id="hover-tiempo" class="hover-tiempo">0:00</div>
+                <input type="range" id="progress-slider" min="0" max="100" value="0">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <div class="player-body">
+                <div class="current-track-info">
+                    <img src="" alt="Carátula" id="current-art" class="player-mini-art">
+                    <div class="track-text">
+                        <span id="current-title" class="track-title">Ninguna canción seleccionada</span>
+                        <span id="current-artist" class="track-artist">—</span>
+                    </div>
+                </div>
+                <div class="media-controls">
+                    <button class="control-btn" id="btn-shuffle" title="Modo Aleatorio">🔀</button>
+                    <button class="control-btn" id="btn-prev" title="Anterior">⏮</button>
+                    <button class="control-btn play-main" id="btn-play-toggle" title="Reproducir/Pausar">▶</button>
+                    <button class="control-btn" id="btn-next" title="Siguiente">⏭</button>
+                    <button class="control-btn active" id="btn-repeat" title="Reproducir en Orden / Repetir Lista">🔁</button>
+                    <button class="control-btn" id="btn-repeat-one" title="Repetir Canción">🔂</button>
+                </div>
+                <div class="volume-container">
+                    <span class="volume-icon">🔊</span>
+                    <input type="range" id="volume-slider" min="0" max="1" step="0.05" value="1">
+                </div>
+                <div class="time-display">
+                    <span id="current-time">0:00</span> / <span id="total-time">0:00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="/cheft-portafolio/js/music.js"></script>
+    <script src="/cheft-portafolio/js/animations.js"></script>
+</body>
+</html>
